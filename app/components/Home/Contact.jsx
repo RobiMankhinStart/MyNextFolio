@@ -1,11 +1,12 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+
 const Contact = () => {
   return (
     <div className="py-7">
       <div className="container">
-        <div className="mainDiv flex w-[970px] justify-between">
+        <div className="mainDiv flex w-[900px] justify-between">
           <div>
             <h3 className="text-3xl text-center font-bold">
               Leave me your info

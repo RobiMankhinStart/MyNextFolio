@@ -6,7 +6,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div className="pb-[130px] w-[970px] mx-auto">
+    <div className="pb-[130px] w-[900px]  mx-auto">
       <div className="container bg-white">
         <div className="mainDiv flex items-center justify-center gap-2">
           <div>

@@ -34,22 +34,24 @@ const SideMe = () => {
           </div>
         </div>
         {/* personal info  */}
-        <div className="flex flex-col  justify-center gap-2 border-b-4 py-6 border-[#F0F0F6]">
-          <div className="flex items-center gap-[110px] ">
+        <div className="flex flex-col gap-2 border-b-4 py-6 border-[#F0F0F6]">
+          <div className="flex items-center gap-[70px] ">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">age : </h3>
             <p>24</p>
           </div>
-          <div className="flex items-center gap-14 pt-6">
+          <div className="flex items-center gap-7 pt-6">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">Residence:</h3>
             <p>BD</p>
           </div>
-          <div className="flex items-center gap-[60px] pt-6">
+          <div className="flex items-center gap-8 pt-6">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">Freelance:</h3>
             <p className=" text-[#7EB942]">Available</p>
           </div>
-          <div className="flex items-center gap-[70px] pt-6">
+          <div className="flex items-center gap-[45px] pt-6">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">Address: </h3>
-            <p>Dhaka,Bangladesh</p>
+            <p className="flex flex-col">
+              Dhaka,<span>Bangladesh</span>{" "}
+            </p>
           </div>
         </div>
         {/* language  */}

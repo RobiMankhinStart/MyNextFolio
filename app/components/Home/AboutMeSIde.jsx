@@ -3,7 +3,7 @@ import SideMe from "../common/sideComponents/SideMe";
 
 const AboutMeSIde = () => {
   return (
-    <div className="py-[50px] px-10 bg-white">
+    <div className="py-[50px] px-5 bg-white">
       <SideMe />
     </div>
   );
