@@ -6,8 +6,8 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div className="pb-[130px] w-[900px]  mx-auto">
-      <div className="container bg-white">
+    <div className="pb-[50px] w-[900px] mt-3  mx-auto ">
+      <div className="container bg-white shadow-lg rounded-lg hover:scale-104 duration-300 ">
         <div className="mainDiv flex items-center justify-center gap-2">
           <div>
             <h1 className="w-[500px] font-inter font-bold text-[48px]">
@@ -40,7 +40,6 @@ const Banner = () => {
           />
         </div>
       </div>
-      ;
     </div>
   );
 };
