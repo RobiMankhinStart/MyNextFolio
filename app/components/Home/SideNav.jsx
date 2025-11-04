@@ -10,7 +10,7 @@ const SideNav = () => {
       <div className="relative">
         <div
           title="home"
-          className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#F0F0F6] hover:bg-[#FFB400]"
+          className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400]"
         >
           <FaHome className="text-[20px] " />
         </div>
@@ -18,16 +18,16 @@ const SideNav = () => {
           Home
         </span>
       </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
+      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
         <GrDocumentText className="text-[20px] " />
       </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
+      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
         <FaUserGraduate className="text-[20px] " />
       </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
+      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
         <BsPersonWorkspace className="text-[20px] " />
       </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
+      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
         <MdMessage className="text-[20px] " />
       </div>
     </div>

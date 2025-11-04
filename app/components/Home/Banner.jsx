@@ -20,11 +20,11 @@ const Banner = () => {
               suspendisse nunc lectus.
             </p>
             <div className="flex gap-7">
-              <button className="bg-[#FFB400] rounded-md flex items-center justify-center gap-2 w-[154px] h-[51px] font-inter font-medium text-lg">
+              <button className="bg-[#FFB400] cursor-pointer hover:text-[#e4dada] rounded-md flex items-center justify-center gap-2 w-[154px] h-[51px] font-inter font-medium text-lg">
                 HIRE ME
                 <IoMdArrowForward />
               </button>
-              <button className="bg-[#FFB400] rounded-md flex items-center justify-center gap-2 w-[154px] h-[51px] font-inter font-medium text-lg">
+              <button className="bg-[#FFB400] cursor-pointer hover:text-[#e4dada] rounded-md flex items-center justify-center gap-2 w-[154px] h-[51px] font-inter font-medium text-lg">
                 Download CV
                 <MdOutlineFileDownload />
               </button>

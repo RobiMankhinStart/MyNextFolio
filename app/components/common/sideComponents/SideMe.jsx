@@ -19,16 +19,16 @@ const SideMe = () => {
           <h3 className="text-lg">Robi Mankhin</h3>
           <p className="text-[#767676] text-sm my-[15px]">Font-end Developer</p>
           <div className="flex gap-3 items-center border-b-4 border-[#F0F0F6] pb-6">
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center bg-[#FFB400]">
+            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
               <FaFacebookF className="text-lg " />
             </div>
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center bg-[#FFB400]">
+            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
               <FaLinkedin className="text-lg " />
             </div>
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center bg-[#FFB400]">
+            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
               <RiInstagramFill className="text-lg " />
             </div>
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center bg-[#FFB400]">
+            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
               <FaTwitter className="text-lg " />
             </div>
           </div>
