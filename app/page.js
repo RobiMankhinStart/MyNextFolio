@@ -20,6 +20,7 @@ export default function Home() {
   return (
     <div className="flex relative font-inter justify-between bg-[#f5f5fa]">
       <AboutMeSIde left={left} />
+      {/* about me button  */}
       <div
         onClick={() => setLeft(!left)}
         className={`${
@@ -28,6 +29,7 @@ export default function Home() {
       >
         <FaArrowRightArrowLeft className="text-2xl" />
       </div>
+      {/* main section  */}
       <div
         className={` absolute w-[90%] lg:w-[970px] left-12 lg:left-[27%] transition-all duration-300`}
       >
