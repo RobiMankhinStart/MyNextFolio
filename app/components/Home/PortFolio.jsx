@@ -29,7 +29,11 @@ const PortFolio = () => {
       </div>
       {/* works */}
       <div className="flex flex-wrap gap-6 justify-center ">
-        <div className=" shadow-lg">
+        <div
+          data-aos="flip-left"
+          data-aos-duration="3000"
+          className=" shadow-lg"
+        >
           <Image
             className=" object-cover rounded-md "
             src={img}
@@ -38,7 +42,11 @@ const PortFolio = () => {
             alt="coverImg"
           />
         </div>
-        <div className=" shadow-lg">
+        <div
+          data-aos="flip-left"
+          data-aos-duration="3000"
+          className=" shadow-lg"
+        >
           <Image
             className=" object-cover rounded-md "
             src={img}
@@ -47,7 +55,11 @@ const PortFolio = () => {
             alt="coverImg"
           />
         </div>
-        <div className=" shadow-lg">
+        <div
+          data-aos="flip-left"
+          data-aos-duration="3000"
+          className=" shadow-lg"
+        >
           <Image
             className=" object-cover rounded-md "
             src={img}
@@ -56,7 +68,11 @@ const PortFolio = () => {
             alt="coverImg"
           />
         </div>
-        <div className=" shadow-lg">
+        <div
+          data-aos="flip-left"
+          data-aos-duration="3000"
+          className=" shadow-lg"
+        >
           <Image
             className=" object-cover rounded-md "
             src={img}
