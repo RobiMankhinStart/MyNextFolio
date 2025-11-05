@@ -10,7 +10,7 @@ const AboutMeSIde = ({ left }) => {
   return (
     <div
       className={`${
-        left ? "left-0" : "left-[-40%]"
+        left ? "left-0" : "left-[-1040%]"
       } absolute lg:left-0 z-40 transition-all duration-300  py-[50px] px-5 bg-white`}
     >
       <div className="flex flex-col ">

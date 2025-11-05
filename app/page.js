@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       {/* main section  */}
       <div
-        className={` absolute w-[90%] lg:w-[970px] left-12 lg:left-[27%] transition-all duration-300`}
+        className={` absolute left-1 md:left-10 lg:left-[30%] transition-all duration-300`}
       >
         <Banner left={left} setLeft={setLeft} />
         <MyServices />
