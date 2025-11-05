@@ -3,7 +3,7 @@ import MyServiceCard from "../common/MyServiceCard";
 
 const MyServices = () => {
   return (
-    <div className="pb-[70px]  w-[900px]">
+    <div className="pb-[70px]  w-[90%]  lg:w-[900px]">
       <div className="container">
         <div className="mainDiv">
           <p className="font-inter  w-[400px] mx-auto text-center text-[#767676] text-[15px]">

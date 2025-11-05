@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import proPic from "../../../public/bgOne-removebg-preview.png";
 import { FaFacebookF } from "react-icons/fa";
@@ -6,9 +6,13 @@ import { FaLinkedin } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 
-const AboutMeSIde = () => {
+const AboutMeSIde = ({ left }) => {
   return (
-    <div className="py-[50px] px-5 bg-white">
+    <div
+      className={`${
+        left ? "left-0" : "left-[-40%]"
+      } absolute lg:left-0 z-40 transition-all duration-300  py-[50px] px-5 bg-white`}
+    >
       <div className="flex flex-col ">
         <div className="flex flex-col items-center">
           <Image

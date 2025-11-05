@@ -4,7 +4,7 @@ import img from "../../../public/Image.png";
 
 const PortFolio = () => {
   return (
-    <div className="container  w-[900px] pb-[50px]">
+    <div className="container   w-[90%]  lg:w-[900px] pb-[50px]">
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h2 className="text-[32px] font-bold font-inter">My Works</h2>
         <p className="font-inter mt-6 w-[410px] mx-auto text-[#767676] text-[15px]">

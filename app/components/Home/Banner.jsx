@@ -6,11 +6,11 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div className="pb-[50px] w-[90%] lg:w-[900px] mt-3 lg:mx-auto ">
-      <div className="container bg-white shadow-lg rounded-lg hover:scale-104 duration-300 ">
+    <div className="pb-[50px] w-[90%]  lg:w-[900px] mt-3 lg:mx-auto ">
+      <div className="container  pb-5 bg-white shadow-lg rounded-lg ">
         <div className="mainDiv flex-col-reverse lg:flex-row flex lg:items-center justify-center gap-2">
           <div>
-            <h1 className="w-[500px] font-inter font-bold text-[48px]">
+            <h1 className="lg:w-[500px] w-full font-inter font-bold text-[48px]">
               I’m Robi Mankhin
               <span className="text-[#FFB400]"> Front-end </span>Developer
             </h1>

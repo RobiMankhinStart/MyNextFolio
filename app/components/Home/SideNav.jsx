@@ -6,7 +6,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import { MdMessage } from "react-icons/md";
 const SideNav = () => {
   return (
-    <div className="py-[50px] px-8 bg-white flex gap-10 flex-col items-center">
+    <div className="fixed right-0 py-[50px] rounded-lg px-8 bg-white flex gap-10 flex-col items-center">
       <div className="relative">
         <div
           title="home"
