@@ -3,7 +3,6 @@ import React from "react";
 import img from "../../../public/Image.png";
 import FolioHoverCard from "./FolioHoverCard";
 
-
 const PortFolioCard = () => {
   return (
     <div>

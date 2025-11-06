@@ -15,16 +15,16 @@ const PortFolio = () => {
       </div>
       {/* categoty buttons*/}
       <div className="flex flex-wrap items-center justify-center mb-[50px] gap-9">
-        <button className="text-lg font-semibold hover:text-[#FFB400] duration-300">
+        <button className="text-2xl hover:scale-105 font-semibold hover:text-[#FFB400] duration-300">
           All categories
         </button>
-        <button className="text-lg font-semibold hover:text-[#FFB400] duration-300">
+        <button className="text-2xl hover:scale-105 font-semibold hover:text-[#FFB400] duration-300">
           ToDo
         </button>
-        <button className="text-lg font-semibold hover:text-[#FFB400] duration-300">
+        <button className="text-2xl hover:scale-105 font-semibold hover:text-[#FFB400] duration-300">
           E-Commerce
         </button>
-        <button className="text-lg font-semibold hover:text-[#FFB400] duration-300">
+        <button className="text-2xl hover:scale-105 font-semibold hover:text-[#FFB400] duration-300">
           All categories
         </button>
       </div>
