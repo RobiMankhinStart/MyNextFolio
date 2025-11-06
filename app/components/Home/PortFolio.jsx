@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import img from "../../../public/Image.png";
+
+import PortFolioCard from "../common/PortFolioCard";
 
 const PortFolio = () => {
   return (
@@ -29,58 +30,9 @@ const PortFolio = () => {
       </div>
       {/* works */}
       <div className="flex flex-wrap gap-6 justify-center ">
-        <div
-          data-aos="flip-left"
-          data-aos-duration="3000"
-          className=" shadow-lg"
-        >
-          <Image
-            className=" object-cover rounded-md "
-            src={img}
-            width={310}
-            height={310}
-            alt="coverImg"
-          />
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-duration="3000"
-          className=" shadow-lg"
-        >
-          <Image
-            className=" object-cover rounded-md "
-            src={img}
-            width={310}
-            height={310}
-            alt="coverImg"
-          />
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-duration="3000"
-          className=" shadow-lg"
-        >
-          <Image
-            className=" object-cover rounded-md "
-            src={img}
-            width={310}
-            height={310}
-            alt="coverImg"
-          />
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-duration="3000"
-          className=" shadow-lg"
-        >
-          <Image
-            className=" object-cover rounded-md "
-            src={img}
-            width={310}
-            height={310}
-            alt="coverImg"
-          />
-        </div>
+        <PortFolioCard />
+        <PortFolioCard />
+        <PortFolioCard />
       </div>
     </div>
   );
