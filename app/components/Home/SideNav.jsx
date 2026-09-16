@@ -13,7 +13,7 @@ const SideNav = () => {
         href="#home"
         aria-label="Home"
         title="Home"
-        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <FaHome className="text-[20px]" />
       </a>
@@ -21,7 +21,7 @@ const SideNav = () => {
         href="#services"
         aria-label="Services"
         title="Services"
-        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <GrDocumentText className="text-[20px]" />
       </a>
@@ -29,7 +29,7 @@ const SideNav = () => {
         href="#works"
         aria-label="Projects"
         title="Projects"
-        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <BsPersonWorkspace className="text-[20px]" />
       </a>
@@ -37,7 +37,7 @@ const SideNav = () => {
         href="#contact"
         aria-label="Contact"
         title="Contact"
-        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <MdMessage className="text-[20px]" />
       </a>
@@ -45,7 +45,7 @@ const SideNav = () => {
         href="#education"
         aria-label="Education"
         title="Education"
-        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <FaUserGraduate className="text-[20px]" />
       </a>

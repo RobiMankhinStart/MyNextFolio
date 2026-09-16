@@ -73,15 +73,15 @@ const AboutMeSIde = ({ left }) => {
           <h4 className="font-medium text-[#767676]">Node.js</h4>
           <h4 className="font-medium text-[#767676]">Express.js</h4>
           <h4 className="font-medium text-[#767676]">MongoDB</h4>
+          <h4 className="font-medium text-[#767676]"> NEXT JS</h4>
+          <h4 className="font-medium text-[#767676]"> React JS</h4>
+          <h4 className="font-medium text-[#767676]"> JavaScript</h4>
+          <h4 className="font-medium text-[#767676]"> Git</h4>
+          <h4 className="font-medium text-[#767676]"> Tailwind CSS</h4>
           <h4 className="font-medium text-[#767676]">HTML</h4>
           <h4 className="font-medium text-[#767676]">CSS</h4>
-          <h4 className="font-medium text-[#767676]"> Tailwind CSS</h4>
           <h4 className="font-medium text-[#767676]"> BoothStrap</h4>
-          <h4 className="font-medium text-[#767676]"> JavaScript</h4>
           <h4 className="font-medium text-[#767676]"> JQuery</h4>
-          <h4 className="font-medium text-[#767676]"> React JS</h4>
-          <h4 className="font-medium text-[#767676]"> NEXT JS</h4>
-          <h4 className="font-medium text-[#767676]"> Git</h4>
         </div>
       </div>
     </div>
