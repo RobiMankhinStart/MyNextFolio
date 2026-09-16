@@ -89,6 +89,10 @@ body {
   animation-delay: 120ms;
 }
 
+.hero-slide {
+  animation: hero-fade 900ms ease both;
+}
+
 @keyframes rise-in {
   from {
     opacity: 0;
@@ -97,5 +101,16 @@ body {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes hero-fade {
+  from {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
