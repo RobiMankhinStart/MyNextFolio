@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHome } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 import { FaUserGraduate } from "react-icons/fa";
@@ -6,31 +5,51 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import { MdMessage } from "react-icons/md";
 const SideNav = () => {
   return (
-    <div className="fixed right-0 py-[50px] rounded-lg px-8 bg-white flex gap-10 flex-col items-center">
-      <div className="relative">
-        <div
-          title="home"
-          className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400]"
-        >
-          <FaHome className="text-[20px] " />
-        </div>
-        <span className="absolute bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-xs rounded py-1 px-2 whitespace-nowrap">
-          Home
-        </span>
-      </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
-        <GrDocumentText className="text-[20px] " />
-      </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
-        <FaUserGraduate className="text-[20px] " />
-      </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
-        <BsPersonWorkspace className="text-[20px] " />
-      </div>
-      <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[#F0F0F6] hover:bg-[#FFB400] duration-200">
-        <MdMessage className="text-[20px] " />
-      </div>
-    </div>
+    <nav
+      className="surface border fixed right-4 top-1/2 -translate-y-1/2 z-30 py-5 px-3 rounded-2xl flex gap-4 flex-col items-center shadow-sm"
+      aria-label="Section navigation"
+    >
+      <a
+        href="#home"
+        aria-label="Home"
+        title="Home"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+      >
+        <FaHome className="text-[20px]" />
+      </a>
+      <a
+        href="#services"
+        aria-label="Services"
+        title="Services"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+      >
+        <GrDocumentText className="text-[20px]" />
+      </a>
+      <a
+        href="#works"
+        aria-label="Projects"
+        title="Projects"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+      >
+        <BsPersonWorkspace className="text-[20px]" />
+      </a>
+      <a
+        href="#contact"
+        aria-label="Contact"
+        title="Contact"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+      >
+        <MdMessage className="text-[20px]" />
+      </a>
+      <a
+        href="#education"
+        aria-label="Education"
+        title="Education"
+        className="w-10 h-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-[var(--surface-muted)] hover:bg-[var(--accent)] duration-200"
+      >
+        <FaUserGraduate className="text-[20px]" />
+      </a>
+    </nav>
   );
 };
 

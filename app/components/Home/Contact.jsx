@@ -4,20 +4,20 @@ import { IoMdMail } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className="py-7  w-[90%]  lg:w-[900px]">
+    <section id="contact" className="py-7 w-full max-w-[980px] mx-auto">
       <div className="container">
         <div className="mainDiv flex lg:flex-row flex-col items-center  justify-between">
           <div>
             <h3 className="text-3xl text-center font-bold">
               Leave me your info
             </h3>
-            <form className="bg-white flex flex-col gap-6 rounded-md p-7 mt-12">
+            <form className="surface border flex flex-col gap-6 rounded-xl p-5 md:p-7 mt-8">
               <div className="flex flex-col gap-2">
                 <label className="text-[#767676]" htmlFor="fullName">
                   Your Full Name ( Required)
                 </label>
                 <input
-                  className="bg-[#F0F0F6] w-[400px] py-2 px-1 rounded"
+                  className="bg-[var(--surface-muted)] border border-[var(--line)] w-full md:w-[400px] py-2 px-3 rounded"
                   id="fullName"
                   type="text"
                 />
@@ -27,7 +27,7 @@ const Contact = () => {
                   Your Email ( Required)
                 </label>
                 <input
-                  className="bg-[#F0F0F6] w-[400px] py-2 px-1 rounded"
+                  className="bg-[var(--surface-muted)] border border-[var(--line)] w-full md:w-[400px] py-2 px-3 rounded"
                   id="email"
                   type="email"
                 />
@@ -37,7 +37,7 @@ const Contact = () => {
                   Subject
                 </label>
                 <input
-                  className="bg-[#F0F0F6] w-[400px] py-2 px-1 rounded"
+                  className="bg-[var(--surface-muted)] border border-[var(--line)] w-full md:w-[400px] py-2 px-3 rounded"
                   id="subject"
                   type="text"
                 />
@@ -49,7 +49,7 @@ const Contact = () => {
 
                 <textarea
                   id="message"
-                  className="bg-[#F0F0F6] w-[400px] py-2 px-1 rounded"
+                  className="bg-[var(--surface-muted)] border border-[var(--line)] w-full md:w-[400px] py-2 px-3 rounded"
                 />
               </div>
               <button className="w-40 cursor-pointer py-2 font-semibold rounded hover:text-white bg-[#FFB400] flex items-center justify-center">
@@ -63,7 +63,7 @@ const Contact = () => {
               Contact information
             </h3>
             <div className="flex gap-4 flex-col items-center justify-center">
-              <div className="w-[300px] bg-white p-6 flex flex-col gap-4 items-center justify-center mt-[45px] mb-5">
+              <div className="w-[300px] surface border p-6 flex flex-col gap-4 items-center justify-center mt-[45px] mb-5">
                 <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#FFB400]">
                   <FaHome className="text-[20px] " />
                 </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                   <p className="text-[#767676]">Vatara</p>
                 </div>
               </div>
-              <div className="w-[300px] bg-white p-6 flex flex-col gap-4 items-center justify-center ">
+              <div className="w-[300px] surface border p-6 flex flex-col gap-4 items-center justify-center ">
                 <div className="w-10 h-10 p-2 rounded-full flex items-center justify-center bg-[#FFB400]">
                   <IoMdMail className="text-[20px] " />
                 </div>
@@ -101,7 +101,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

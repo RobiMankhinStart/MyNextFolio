@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import proPic from "../../../public/bgOne-removebg-preview.png";
 import { FaFacebookF } from "react-icons/fa";
@@ -11,7 +11,7 @@ const AboutMeSIde = ({ left }) => {
     <div
       className={`${
         left ? "left-0" : "left-[-1040%]"
-      } absolute lg:left-0 z-40 transition-all duration-300  py-[50px] px-5 bg-white`}
+      } absolute lg:left-0 z-40 transition-all duration-300 py-[50px] px-5 surface border-r`}
     >
       <div className="flex flex-col ">
         <div className="flex flex-col items-center">
@@ -22,7 +22,9 @@ const AboutMeSIde = ({ left }) => {
             className="rounded-full object-cover"
           />
           <h3 className="text-lg">Robi Mankhin</h3>
-          <p className="text-[#767676] text-sm my-[15px]">Font-end Developer</p>
+          <p className="text-[#767676] text-sm my-[15px]">
+            Full-Stack MERN Developer
+          </p>
           <div className="flex gap-3 items-center border-b-4 border-[#F0F0F6] pb-6">
             <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
               <FaFacebookF className="text-lg " />
@@ -68,6 +70,9 @@ const AboutMeSIde = ({ left }) => {
         {/* Skills  */}
         <div className="flex flex-col items-center gap-3 border-b-4 py-6 border-[#F0F0F6]">
           <h3 className="font-semibold text-lg">Skills</h3>
+          <h4 className="font-medium text-[#767676]">Node.js</h4>
+          <h4 className="font-medium text-[#767676]">Express.js</h4>
+          <h4 className="font-medium text-[#767676]">MongoDB</h4>
           <h4 className="font-medium text-[#767676]">HTML</h4>
           <h4 className="font-medium text-[#767676]">CSS</h4>
           <h4 className="font-medium text-[#767676]"> Tailwind CSS</h4>
