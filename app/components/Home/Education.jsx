@@ -36,6 +36,19 @@ const Education = () => {
           </div>
         </div>
       </div>
+
+      <div className="surface border flex flex-col rounded-xl shadow-sm py-8 px-6 md:px-8 mt-6 text-center">
+        <div className="flex flex-col items-center">
+          <h3 className="text-[17px] lg:text-[20px] font-semibold text-gray-700">
+            Bachelor of Science in Computer Science and Engineering (CSE)
+            <span className="block mt-2">(2018-2023)</span>
+          </h3>
+
+          <p className="mt-4 text-[17px] lg:text-[20px] font-medium text-gray-700">
+            University of Information Technology and Sciences (UITS)
+          </p>
+        </div>
+      </div>
     </section>
   );
 };

@@ -3,8 +3,9 @@ import AboutMeSIde from "./components/Home/AboutMeSIde";
 import Banner from "./components/Home/Banner";
 import SideNav from "./components/Home/SideNav";
 import MyServices from "./components/Home/MyServices";
-import Education from "./components/Home/Education";
+import Experience from "./components/Home/Experience";
 import PortFolio from "./components/Home/PortFolio";
+import Education from "./components/Home/Education";
 import Footer from "./components/common/Footer";
 import Contact from "./components/Home/Contact";
 import { useState } from "react";
@@ -32,8 +33,9 @@ export default function Home() {
         </div>
         <Banner left={left} setLeft={setLeft} />
         <MyServices />
-        <Education />
+        <Experience />
         <PortFolio />
+        <Education />
         <Contact />
         <Footer />
       </div>

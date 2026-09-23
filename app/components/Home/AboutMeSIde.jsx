@@ -42,22 +42,34 @@ const AboutMeSIde = ({ left }) => {
         </div>
         {/* personal info  */}
         <div className="flex flex-col gap-2 border-b-4 py-6 border-[#F0F0F6]">
-          <div className="flex items-center gap-[70px] ">
+          {/* <div className="flex items-center gap-[70px] ">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">age : </h3>
-            <p>24</p>
-          </div>
+            <p>27</p>
+          </div> */}
           <div className="flex items-center gap-7 pt-6">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">Residence:</h3>
-            <p>BD</p>
+            <p>Bangladesh</p>
           </div>
           <div className="flex items-center gap-8 pt-6">
+            <h3 className="bg-[#FFB400] px-1.5 py-0.5">Phone:</h3>
+            <a href="tel:+8801851228651" className="text-[#767676] hover:text-[#FFB400] transition-colors">
+              01851228651
+            </a>
+          </div>
+          <div className="flex items-center gap-8 pt-6">
+            <h3 className="bg-[#FFB400] px-1.5 py-0.5">Email:</h3>
+            <a href="mailto:robileo49@gmail.com" className="text-[#767676] hover:text-[#FFB400] transition-colors">
+              robileo49@gmail.com
+            </a>
+          </div>
+          {/* <div className="flex items-center gap-8 pt-6">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">Freelance:</h3>
             <p className=" text-[#7EB942]">Available</p>
-          </div>
-          <div className="flex items-center gap-[45px] pt-6">
+          </div> */}
+          <div className="flex items-center gap-7 pt-6">
             <h3 className="bg-[#FFB400] px-1.5 py-0.5">Address: </h3>
             <p className="flex flex-col">
-              Dhaka,<span>Bangladesh</span>{" "}
+              Vatar, Notun Bazar<span>Dhaka-1212</span>{" "}
             </p>
           </div>
         </div>
@@ -76,7 +88,7 @@ const AboutMeSIde = ({ left }) => {
           <h4 className="font-medium text-[#767676]"> NEXT JS</h4>
           <h4 className="font-medium text-[#767676]"> React JS</h4>
           <h4 className="font-medium text-[#767676]"> JavaScript</h4>
-          <h4 className="font-medium text-[#767676]"> Git</h4>
+          <h4 className="font-medium text-[#767676]"> Github</h4>
           <h4 className="font-medium text-[#767676]"> Tailwind CSS</h4>
           <h4 className="font-medium text-[#767676]">HTML</h4>
           <h4 className="font-medium text-[#767676]">CSS</h4>

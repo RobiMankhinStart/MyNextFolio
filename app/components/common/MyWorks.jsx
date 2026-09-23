@@ -1,16 +1,16 @@
 export const MyWorks = [
   {
     id: 1,
-    Image: "/furniture.png",
-    title: "Furniture Commerce",
+    Image: "/website-photo2.png",
+    title: "E-Commerce RoyalCart (fullStack)",
     category: "Full-Stack",
     liveLink: "https://github.com/RobiMankhinStart/FullStack-E_Commerce",
     git: "https://github.com/RobiMankhinStart/FullStack-E_Commerce",
   },
   {
     id: 2,
-    Image: "/ReactCrud.png",
-    title: "React CRUD Dashboard",
+    Image: "/trimlink1.png",
+    title: "TrimLink (FullStack)",
     category: "Full-Stack",
     liveLink: "https://github.com/RobiMankhinStart/TrimLink",
     git: "https://github.com/RobiMankhinStart/TrimLink",
