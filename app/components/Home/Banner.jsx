@@ -95,7 +95,7 @@ const Banner = () => {
                 Let&apos;s talk <IoMdArrowForward />
               </a>
               <a
-                href="/robi_Resume-robileo49@gmail.com.pdf"
+                href="/robi-resume-robileo49@gmail.com.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-white/40 bg-white/10 rounded-md px-5 py-3 font-semibold inline-flex items-center gap-2 hover:bg-white/20 transition-colors"
