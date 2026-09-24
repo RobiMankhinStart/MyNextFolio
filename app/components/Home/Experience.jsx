@@ -27,7 +27,7 @@ const Experience = () => {
           </span>
         </div>
 
-        <p className="mt-6 text-[15px] leading-7 text-[#767676] max-w-3xl">
+        <p className="mt-6 text-[15px] leading-7 text-(--muted) max-w-3xl">
           Worked in a practical digital training environment focused on web
           development and skill-based learning under the EBT-supported NSDA
           initiative. The experience strengthened my ability to learn quickly,

@@ -15,14 +15,21 @@ export default function ThemeToggle() {
   const [dark, setDark] = useState(getInitialTheme);
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", dark);
+    const root = document.documentElement;
+    const theme = dark ? "dark" : "light";
+
+    root.classList.toggle("dark", dark);
+    root.style.colorScheme = theme;
+
+    try {
+      window.localStorage.setItem("theme", theme);
+    } catch {
+      // Ignore storage errors in restricted environments.
+    }
   }, [dark]);
 
   const toggleTheme = () => {
-    const nextTheme = !dark;
-    setDark(nextTheme);
-    document.documentElement.classList.toggle("dark", nextTheme);
-    window.localStorage.setItem("theme", nextTheme ? "dark" : "light");
+    setDark((current) => !current);
   };
 
   return (
