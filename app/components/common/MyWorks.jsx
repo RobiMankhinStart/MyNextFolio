@@ -12,7 +12,7 @@ export const MyWorks = [
     Image: "/trimlink1.png",
     title: "TrimLink (FullStack)",
     category: "Full-Stack",
-    liveLink: "https://github.com/RobiMankhinStart/TrimLink",
+    liveLink: "https://trim-link-frontend.vercel.app/",
     git: "https://github.com/RobiMankhinStart/TrimLink",
   },
   {
