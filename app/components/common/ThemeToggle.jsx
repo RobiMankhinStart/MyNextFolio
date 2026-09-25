@@ -12,9 +12,18 @@ const getInitialTheme = () => {
 };
 
 export default function ThemeToggle() {
-  const [dark, setDark] = useState(getInitialTheme);
+  const [dark, setDark] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    const initialTheme = getInitialTheme();
+    setDark(initialTheme);
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+
     const root = document.documentElement;
     const theme = dark ? "dark" : "light";
 
@@ -26,21 +35,23 @@ export default function ThemeToggle() {
     } catch {
       // Ignore storage errors in restricted environments.
     }
-  }, [dark]);
+  }, [dark, mounted]);
 
   const toggleTheme = () => {
     setDark((current) => !current);
   };
 
+  const isDark = mounted ? dark : false;
+
   return (
     <button
       type="button"
       onClick={toggleTheme}
-      aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
-      title={dark ? "Switch to light mode" : "Switch to dark mode"}
-      className="theme-toggle"
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      className="theme-toggle flex-shrink-0"
     >
-      {dark ? <FaSun /> : <FaMoon />}
+      {isDark ? <FaSun /> : <FaMoon />}
     </button>
   );
 }

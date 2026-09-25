@@ -12,7 +12,7 @@ const services = [
 
 const MyServices = () => {
   return (
-    <section id="services" className="w-full max-w-[980px] mx-auto pb-20">
+    <section id="services" className=" pt-20 w-full max-w-[980px] mx-auto">
       <div className="max-w-2xl mx-auto text-center mb-10">
         <p className="accent text-sm font-semibold uppercase tracking-[0.2em]">
           What I do

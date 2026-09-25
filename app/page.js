@@ -10,7 +10,7 @@ import Footer from "./components/common/Footer";
 import Contact from "./components/Home/Contact";
 import { useEffect, useRef, useState } from "react";
 import { FaArrowRightArrowLeft } from "react-icons/fa6";
-import ThemeToggle from "./components/common/ThemeToggle";
+// import ThemeToggle from "./components/common/ThemeToggle";
 
 export default function Home() {
   const [left, setLeft] = useState(false);
@@ -62,15 +62,12 @@ export default function Home() {
         onClick={() => setLeft((current) => !current)}
         className={`${
           left ? "left-[calc(100%-60px)]" : "left-4"
-        } fixed top-4 z-50 lg:hidden border w-11 h-11 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:scale-105 bg-(--accent) shadow-lg shadow-black/10`}
+        } surface fixed top-16 z-50 lg:hidden border w-10 h-10 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:scale-105 shadow-lg shadow-black/10`}
       >
-        <FaArrowRightArrowLeft className="text-2xl" />
+        <FaArrowRightArrowLeft className="text-xl" />
       </button>
 
       <div className="lg:ml-[280px] lg:mr-[82px] px-4 md:px-8 py-4 md:py-8 transition-all duration-300">
-        <div className="flex justify-end mb-4">
-          <ThemeToggle />
-        </div>
         <Banner />
         <MyServices />
         <Experience />

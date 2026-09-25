@@ -12,7 +12,7 @@ const AboutMeSIde = ({ left, sidebarRef }) => {
       ref={sidebarRef}
       className={`${
         left ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
-      } fixed inset-y-0 left-0 z-40 w-[280px] max-w-[85vw] overflow-y-auto transition-transform duration-300 py-[50px] px-5 surface border-r shadow-xl shadow-black/10 lg:translate-x-0 lg:opacity-100`}
+      } fixed inset-y-0 left-0 z-40 w-[290px] max-w-[85vw] overflow-y-auto transition-transform duration-300 pt-5 pb-1 px-5 surface border-r shadow-xl shadow-black/10 lg:translate-x-0 lg:opacity-100`}
     >
       <div className="flex flex-col ">
         <div className="flex flex-col items-center">
@@ -101,6 +101,12 @@ const AboutMeSIde = ({ left, sidebarRef }) => {
           <h4 className="font-medium text-(--muted)">CSS</h4>
           <h4 className="font-medium text-(--muted)"> BoothStrap</h4>
           <h4 className="font-medium text-(--muted)"> JQuery</h4>
+        </div>
+        {/* Additional skills  */}
+        <div className="flex flex-col items-center gap-3 border-b-4 py-6 border-(--line)">
+          <h3 className="font-semibold text-lg">Extracurriculars</h3>
+          <h4 className="font-medium text-(--muted)">Tabla</h4>
+          <h4 className="font-medium text-(--muted)">Cajon</h4>
         </div>
       </div>
     </aside>

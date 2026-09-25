@@ -15,7 +15,7 @@ const PortFolio = () => {
       : MyWorks.filter((project) => project.category === activeCategory);
 
   return (
-    <section id="works" className="w-full max-w-[980px] mx-auto pb-20">
+    <section id="works" className="w-full max-w-[980px] mx-auto pt-20">
       <div className="max-w-2xl mx-auto text-center mb-10 reveal">
         <p className="accent text-sm font-semibold uppercase tracking-[0.2em]">
           Selected work

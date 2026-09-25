@@ -6,7 +6,7 @@ const inputClassName =
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-7 w-full max-w-[980px] mx-auto">
+    <section id="contact" className="pt-20 w-full max-w-[980px] mx-auto">
       <div className="mainDiv flex lg:flex-row flex-col items-center justify-between gap-10">
         <div className="w-full">
           <h3 className="text-3xl text-center font-bold">Leave me your info</h3>

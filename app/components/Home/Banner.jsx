@@ -50,7 +50,7 @@ const Banner = () => {
   }, [imagesReady]);
 
   return (
-    <section id="home" className="w-full max-w-[980px] mx-auto mb-20">
+    <section id="home" className=" w-full max-w-[980px] mx-auto pt-18 md:pt-1">
       <div className="relative min-h-[560px] md:min-h-[600px] surface border rounded-2xl overflow-hidden shadow-sm reveal">
         <div
           className="absolute inset-0 flex transition-transform duration-700 ease-in-out"
