@@ -2,7 +2,7 @@ import React from "react";
 import MyServiceCard from "../common/MyServiceCard";
 
 const services = [
-  ["Exoress.js", "Fast, scalable backend applications and optimized APIs"],
+  ["Express.js", "Fast, scalable backend applications and optimized APIs"],
   [
     "MongoDB",
     "Flexible, high-throughput NoSQL databases and optimized queries",
