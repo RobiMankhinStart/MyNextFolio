@@ -2,8 +2,12 @@ import React from "react";
 import MyServiceCard from "../common/MyServiceCard";
 
 const services = [
-  ["UI/UX Design", "Clean, accessible product interfaces"],
-  ["Web Development", "Fast, responsive React websites"],
+  ["Exoress.js", "Fast, scalable backend applications and optimized APIs"],
+  [
+    "MongoDB",
+    "Flexible, high-throughput NoSQL databases and optimized queries",
+  ],
+  ["Web Development", "Fast, responsive user friendly websites"],
   ["Next.js Applications", "Scalable pages and experiences"],
   ["Responsive Design", "Layouts that work everywhere"],
   ["Landing Pages", "Focused pages built to convert"],
