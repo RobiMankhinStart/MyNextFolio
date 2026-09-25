@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import proPic from "../../../public/bgOne-removebg-preview.png";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
@@ -27,18 +27,38 @@ const AboutMeSIde = ({ left, sidebarRef }) => {
             Full-Stack MERN Developer
           </p>
           <div className="flex gap-3 items-center border-b-4 border-(--line) pb-6">
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
+            <a
+              href="https://www.facebook.com/robi.leo.47"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]"
+            >
               <FaFacebookF className="text-lg " />
-            </div>
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/robi-mankhin-608b7b271/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]"
+            >
               <FaLinkedin className="text-lg " />
-            </div>
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
-              <RiInstagramFill className="text-lg " />
-            </div>
-            <div className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]">
+            </a>
+            <a
+              href="https://github.com/RobiMankhinStart"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]"
+            >
+              <FaGithub className="text-lg " />
+            </a>
+            <a
+              href="https://x.com/Robi_Mankhin49"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-9 h-9 p-2 rounded-full flex items-center justify-center duration-200 cursor-pointer hover:bg-[#dbdbe4] bg-[#FFB400]"
+            >
               <FaTwitter className="text-lg " />
-            </div>
+            </a>
           </div>
         </div>
         {/* personal info  */}
