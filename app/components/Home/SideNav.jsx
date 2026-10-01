@@ -16,48 +16,48 @@ const SideNav = () => {
       <a
         href="#home"
         aria-label="Home"
-        title="Home"
-        className="size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
+        data-tooltip="Home"
+        className="sidenav-link size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <FaHome className="text-[20px]" />
       </a>
       <a
         href="#services"
         aria-label="Services"
-        title="Services"
-        className="size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
+        data-tooltip="Services"
+        className="sidenav-link size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <GrDocumentText className="text-[20px]" />
       </a>
       <a
         href="#experience"
         aria-label="Experience"
-        title="Experience"
-        className="size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
+        data-tooltip="Experience"
+        className="sidenav-link size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <FaBriefcase className="text-[20px]" />
       </a>
       <a
         href="#works"
         aria-label="Projects"
-        title="Projects"
-        className="size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
+        data-tooltip="Projects"
+        className="sidenav-link size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <BsPersonWorkspace className="text-[20px]" />
       </a>
       <a
         href="#education"
         aria-label="Education"
-        title="Education"
-        className="size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
+        data-tooltip="Education"
+        className="sidenav-link size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <FaUserGraduate className="text-[20px]" />
       </a>
       <a
         href="#contact"
         aria-label="Contact"
-        title="Contact"
-        className="size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
+        data-tooltip="Contact"
+        className="sidenav-link size-8 lg:size-10 p-2 rounded-full flex items-center justify-center cursor-pointer bg-(--surface-muted) hover:bg-(--accent) duration-200"
       >
         <MdMessage className="text-[20px]" />
       </a>
